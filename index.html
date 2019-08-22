@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GIPHY Madness</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-5">GIPHY Madness</h1>
+            <p class="lead">This is a simple GIPHY Search tool.</p>
+            <hr class="my-4">
+            <p>It uses the GIPHY API to search for and display animal gifs and their corresponding ratings. It's sole
+                purpose is to <br>
+                display my knowledge of Bootstrap, AJAX, HTML and Javascript. Please click a button to search for gifs
+                or add a new button <br>
+                for a new search and then click each image to animate it, click again to stop animation. </p>
+        </div>
+        <div class="row">
+            <div class="col">
+                Click to Search
+            </div>
+            <div class="col-6">
+                <div id="animal-buttons" class="btn-group" role="group"></div>
+            </div>
+            <div class="col">
+                <form id="animal-form">
+                    <label for="animal-input">Add an animal</label>
+                    <input type="text" id="animal-input" class="form-control"><br>
+                    <input id="add-animal" type="submit" value="Submit" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+
+        <table class="table table-sm table-bordered" id="animals">
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
+        integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
+        crossorigin="anonymous"></script>
+    <script src="source.js"></script>
+</body>
+
+</html>
