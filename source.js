@@ -3,7 +3,7 @@ var topics = ["bears", "tigers", "lions", "horses"];
 
 function buildQueryURL(searchText) {
   // queryURL is the url we'll use to query the API
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchText + "&api_key=juHWER0dFfSC82OGCo1xW4c0RaF1BGqQ&limit=10";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchText + "&api_key=juHWER0dFfSC82OGCo1xW4c0RaF1BGqQ&limit=10";
 
   // Logging the URL so we have access to it for troubleshooting
   console.log("---------------\nURL: " + queryURL + "\n---------------");
